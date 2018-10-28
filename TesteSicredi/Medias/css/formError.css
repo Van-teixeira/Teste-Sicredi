@@ -1,0 +1,38 @@
+﻿.formError { position: absolute; top: 300px; left: 300px; padding-bottom: 13px; display: block; z-index: 195000; cursor: pointer; }
+#debugMode { background: #000; position: fixed; width: 100%; height: 200px; top: 0; left: 0; overflow: scroll; opacity: 1; display: block; padding: 10px; color: #fff; font-size: 14px; z-index: 100000; }
+
+.ajaxSubmit { padding: 20px; background: #55ea55; border: 1px solid #999; display: none; }
+.formError .formErrorContent { width: 100%; background: #fffcef; color: #db7c22; width: 200px; font-family: 雅黑; font-size: 12px; border: 1px solid #ffbb76; padding: 4px 10px 4px 10px; border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px; }
+.greenPopup .formErrorContent { background: #dbfce1!important; border: 1px solid #2fcb33!important; color: #2fcb33!important; }
+
+.blackPopup .formErrorContent { background: #d4a639; color: #FFF; }
+
+.formError .formErrorArrow { position: absolute; bottom: 0; left: 20px; width: 15px; height: 15px; z-index: 195001; }
+.formError .formErrorArrowBottom { top: 0; margin: -6px; }
+
+.formError .formErrorArrow div { border-left: 1px solid #ffbb76; border-right: 1px solid #ffbb76; font-size: 0px; height: 1px; background: #fffcef; margin: 0 auto; line-height: 0px; font-size: 0px; display: block; }
+.greenPopup .formErrorArrow div { border-left: 1px solid #2fcb33!important; border-right: 1px solid #2fcb33!important; font-size: 0px; height: 1px; background: #dbfce1!important; margin: 0 auto; line-height: 0px; font-size: 0px; display: block; }
+.formError .formErrorArrowBottom div { box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; }
+
+.greenPopup .formErrorArrow div { background: #fffcef; }
+.blackPopup .formErrorArrow div { background: #fffcef; color: #FFF; }
+
+.formError .formErrorArrow .line9 { width: 15px; border: none; }
+.formError .formErrorArrow .line8 { width: 13px; border: none; }
+.formError .formErrorArrow .line7 { width: 11px; }
+.formError .formErrorArrow .line6 { width: 9px; }
+.formError .formErrorArrow .line5 { width: 7px; }
+.formError .formErrorArrow .line4 { width: 5px; }
+.formError .formErrorArrow .line3 { width: 3px; }
+.formError .formErrorArrow .line2 { width: 1px; border-left: 1px solid #ffbb76; border-right: 1px solid #ffbb76; border-bottom: 0px solid #ffbb76; }
+.formError .formErrorArrow .line1 { width: 1px; border: none; border-left: 0; border-right: 0; background: #ffbb76; }
+
+.greenPopup .formErrorArrow .line9 { width: 15px; border: none!important; }
+.greenPopup .formErrorArrow .line8 { width: 13px; border: none!important; }
+.greenPopup .formErrorArrow .line7 { width: 11px; }
+.greenPopup .formErrorArrow .line6 { width: 9px; }
+.greenPopup .formErrorArrow .line5 { width: 7px; }
+.greenPopup .formErrorArrow .line4 { width: 5px; }
+.greenPopup .formErrorArrow .line3 { width: 3px; }
+.greenPopup .formErrorArrow .line2 { width: 1px; border-left: 1px solid #2fcb33!important; border-right: 1px solid #2fcb33!important; border-bottom: 0px solid #dbfce1!important; }
+.greenPopup .formErrorArrow .line1 { width: 1px; border: none!important; border-left: 0; border-right: 0; background: #2fcb33!important; }

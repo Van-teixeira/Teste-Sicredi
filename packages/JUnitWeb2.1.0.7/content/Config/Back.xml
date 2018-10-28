@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<ArrayOfHMenuItem xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!--<HMenuItem>
+    <ItemName>系统设置</ItemName>
+    <Url>#</Url>
+    <ClassName />
+    <Memo />
+    <SubItems>
+      <HMenuItem>
+        <ItemName>管理员</ItemName>
+        <Url>~/back/admininfo.aspx</Url>
+        <ClassName />
+        <Memo />
+        <SubItems />
+      </HMenuItem>
+    </SubItems>
+  </HMenuItem>-->
+</ArrayOfHMenuItem>

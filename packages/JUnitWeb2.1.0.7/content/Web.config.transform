@@ -1,0 +1,43 @@
+﻿<?xml version="1.0"?>
+<configuration>
+  <system.web>
+
+    <globalization fileEncoding="utf-8"/>
+    <!--
+    Dotnet 2.0需要这段
+    <compilation debug="true">
+      <assemblies>
+        <add assembly="System.Design, Version=2.0.0.0, Culture=neutral, PublicKeyToken=B03F5F7F11D50A3A"/>
+      </assemblies>
+    </compilation>
+    -->
+    <pages>
+      <controls>
+        <!--<add assembly="JUnit.WebCommon" namespace="JUnit.Web.Controls" tagPrefix="JUnit"/>-->
+        <!--<add assembly="CuteEditor" namespace="CuteEditor" tagPrefix="JUnit" />-->
+      </controls>
+      <namespaces>
+        <add namespace="JUnit.Web"/>
+        <add namespace="JUnit.Common"/>
+        <add namespace="JUnit.DataAccess"/>
+      </namespaces>
+    </pages>
+  </system.web>
+  <system.data>
+    <DbProviderFactories>
+      <add name="MySQL Data Provider" invariant="MySql.Data.MySqlClient" description=".Net Framework Data Provider for MySQL" type="MySql.Data.MySqlClient.MySqlClientFactory, MySql.Data,Culture=neutral, PublicKeyToken=c5687fc88969c44d"/>
+    </DbProviderFactories>
+
+
+
+
+  </system.data>
+  <appSettings>
+    <!--
+     //注明要自动生成表的Model程序集
+    <add  key="IModel" value="JUnit.Model"/>
+     //注明应用程序的Title
+    <add key="Title" value="Appliction"/>
+    -->
+  </appSettings>
+</configuration>
